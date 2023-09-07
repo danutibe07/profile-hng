@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+.linkstree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile {
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .prop {
+    text-decoration: none;
+    text-align: center;
+    padding: 24px 32px;
+    background-color: #EAECF0;
+    color: #101828;
+    margin: 14px 10%;
+    Width: 80%;
+    Height: 22px;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+  }
+  
+  .prop:hover {
+    background-color: #D0D5DD;
+  }
+  
+  #profile__img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+  }
+  
+  .profileimage1 {
+    position: relative;
+    left: 46px;
+  }
+  
+  .profileimage2 {
+    position: relative;
+    right: 42px;
+    opacity: 0;
+    transition: all 0.7 ease;
+  }
+  
+  .profileimage2:hover {
+    opacity: 1;
+  }
+  
+  .sharebtn {
+    Width: 40px;
+    Height: 40px;
+    Top: 32px;
+    right: -428px;
+    position: relative;
+  }
+
+  @media screen and (max-width:800px) {
+
+  }
+   
+  @media screen and (max-width:700px) {
+  }
+  
+  @media screen and (max-width:700px) {
+
+  }
+  .slack {
+    display: none;
+  }

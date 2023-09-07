@@ -6,10 +6,5 @@ const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Fri
 const currentDay = daysOfWeek[currentDate.getDay()];
 const currentTimeInMilliseconds = currentDate.getTime();
 
-// const currentHour = currentDate.getHours().toString().padStart(2, '0');
-// const currentMinute = currentDate.getMinutes().toString().padStart(2, '0');
-// const currentSecond = currentDate.getSeconds().toString().padStart(2, '0');
-// const currentTime = `${currentHour}:${currentMinute}:${currentSecond}`;
-
 Day.innerHTML = `<strong>Current Day:</strong> ${currentDay}`;
 Time.innerHTML = `<strong>Current Time (in milliseconds):</strong> ${currentTimeInMilliseconds}`;
